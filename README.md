@@ -5,7 +5,11 @@ This project presents a comprehensive analysis and dashboard creation using an e
 The dataset used in this project was sourced from Kaggle:
 Ecommerce Data on Kaggle
 https://www.kaggle.com/datasets/carrie1/ecommerce-data
+
+
 (This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers)
+
+
 It contains over 500,000 records of transactions from an online UK-based retailer, including:
 
 - InvoiceNo
@@ -29,8 +33,6 @@ Handled missing values: particularly missing InvoiceDate and CustomerID.
   
 - Calculated Total Price (Total Price = Quantity × UnitPrice)
 
-
-## 📊 Data Analysis 
 
 
 ## SQL: 
@@ -64,7 +66,7 @@ Key Measures and Metrics Created:
 ## 📈 Power BI Dashboard
 Pages and Visuals Created:
 1. Dashboard Overview (Page Title Displayed)
-   Contains a dynamic page title using a text box for branding and clarity.
+     Contains a dynamic page title using a text box for branding and clarity.
    
 2.KPI cards
   - Total orders (count of distinct InvoiceNo)
@@ -74,8 +76,8 @@ Pages and Visuals Created:
   visual: New Cards
 
 3. Customer Type Distribution
-   Displays counts of Unique vs. Returning customers.
-   Visual:Pie Chart
+     Displays counts of Unique vs. Returning customers.
+     Visual:Pie Chart
 
 4.Invoice Date Status
    Displays Counts of Missing and Valid Invoice date
