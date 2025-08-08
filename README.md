@@ -128,6 +128,8 @@ Pages and Visuals Created:
    -  Page Navigation using pages
 
 ## 📌 Key Learnings & Insights
+
+
 ✅ Customers from the UK accounted for the majority of transactions.
 
 ✅ 91.02% of customers are registerd and 8.98% of customers are unregisterd(guest customers)
@@ -144,14 +146,17 @@ Pages and Visuals Created:
 
 ✅ RFM segmentation helps in identifying loyal vs. at-risk customers.
 
-📦 Tools Used
+## 📦 Tools Used
+
+
 - Excel :	Initial cleaning and exploration
 - PostgreSQL(PGAdmin)	: Data cleaning, transformation, and aggregation
 - Python : (Pandas, Matplotlib)	Advanced analysis, RFM, visualizations
 - Power BI	: Dashboard building and interactive visualization
 
+## 📷Dashboard Preiview
+!<img width="1396" height="746" alt="Screenshot 2025-08-08 223903" src="https://github.com/user-attachments/assets/356fbde9-c097-47c9-9f72-14186e077053" />
 
-!<img width="698" height="373" alt="image" src="https://github.com/user-attachments/assets/fd9ef124-fc45-4cfc-97e8-b1eab9966c92" />
 !<img width="1392" height="742" alt="Screenshot 2025-08-08 223835" src="https://github.com/user-attachments/assets/ae6f9b0d-8f8b-4cad-a2a5-a74a9682213d" />
 
 
