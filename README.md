@@ -69,11 +69,11 @@ Pages and Visuals Created:
   - Contains a dynamic page title using a text box for branding and clarity.
    
 2.KPI cards
-  - Total orders (count of distinct InvoiceNo)
-  - Total Items Sold (Sum of Quantity)
-  - Unique Customers (Distinct Count Of CustmerID)
-  - Total Revenue (Sum Of Total Revenue)
-  - visual: New Cards
+   - Total orders (count of distinct InvoiceNo)
+   - Total Items Sold (Sum of Quantity)
+   - Unique Customers (Distinct Count Of CustmerID)
+   - Total Revenue (Sum Of Total Revenue)
+   - visual: New Cards
 
 3. Customer Type Distribution
   - Displays counts of Unique vs. Returning customers.
