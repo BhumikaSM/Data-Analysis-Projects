@@ -66,28 +66,28 @@ Key Measures and Metrics Created:
 ## 📈 Power BI Dashboard
 Pages and Visuals Created:
 1.Dashboard Overview (Page Title Displayed)
-  - Contains a dynamic page title using a text box for branding and clarity.
+     - Contains a dynamic page title using a text box for branding and clarity.
    
 2.KPI cards
-   - Total orders (count of distinct InvoiceNo)
-   - Total Items Sold (Sum of Quantity)
-   - Unique Customers (Distinct Count Of CustmerID)
-   - Total Revenue (Sum Of Total Revenue)
-   - visual: New Cards
+     - Total orders (count of distinct InvoiceNo)
+     - Total Items Sold (Sum of Quantity)
+     - Unique Customers (Distinct Count Of CustmerID)
+     - Total Revenue (Sum Of Total Revenue)
+     - visual: New Cards
 
 3. Customer Type Distribution
-  - Displays counts of Unique vs. Returning customers.
-  - Visual:Pie Chart
+      - Displays counts of Unique vs. Returning customers.
+      - Visual:Pie Chart
 
 4.Invoice Date Status
-   - Displays Counts of Missing and Valid Invoice date
+      - Displays Counts of Missing and Valid Invoice date
 
 5. Sales vs Returns
-  -  Visual: Area Chart
-  -  Shows comparison between total sales and return quantities.
+      -  Visual: Area Chart
+      -  Shows comparison between total sales and return quantities.
 
 6. Return Rate Percentage by Country
-   -  Visual: Stacked line Chart
+      -  Visual: Stacked line Chart
 
 
     Return Rate (%) = 
