@@ -65,29 +65,30 @@ Key Measures and Metrics Created:
 
 ## 📈 Power BI Dashboard
 Pages and Visuals Created:
-1. Dashboard Overview (Page Title Displayed)
-     Contains a dynamic page title using a text box for branding and clarity.
+1.Dashboard Overview (Page Title Displayed)
+  - Contains a dynamic page title using a text box for branding and clarity.
    
 2.KPI cards
   - Total orders (count of distinct InvoiceNo)
   - Total Items Sold (Sum of Quantity)
   - Unique Customers (Distinct Count Of CustmerID)
   - Total Revenue (Sum Of Total Revenue)
-  visual: New Cards
+  - visual: New Cards
 
 3. Customer Type Distribution
-     Displays counts of Unique vs. Returning customers.
-     Visual:Pie Chart
+  - Displays counts of Unique vs. Returning customers.
+  - Visual:Pie Chart
 
 4.Invoice Date Status
-   Displays Counts of Missing and Valid Invoice date
+   - Displays Counts of Missing and Valid Invoice date
 
 5. Sales vs Returns
-   Visual: Area Chart
-   Shows comparison between total sales and return quantities.
+  -  Visual: Area Chart
+  -  Shows comparison between total sales and return quantities.
 
 6. Return Rate Percentage by Country
-    Visual: Stacked line Chart
+   -  Visual: Stacked line Chart
+
 
     Return Rate (%) = 
       DIVIDE(
@@ -95,29 +96,31 @@ Pages and Visuals Created:
          CALCULATE(COUNTROWS(Sales), Sales[TransactionType] IN {"Sales", "Returns"})
       ) * 100
 
-7. Top Selling Products
-   Visual: Bar Chart
-   Displays top products by Total Price.
+8. Top Selling Products
+   - Visual: Bar Chart
+   - Displays top products by Total Price.
 
-8. Invoice Date Analysis
-   Extracted Month and Day Name for Further Analysis.
+9. Invoice Date Analysis
+   - Extracted Month and Day Name for Further Analysis.
 
-9. Daily Sales  Analysis
-   Visual: Area Chart
+10. Daily Sales  Analysis
+    -  Visual: Area Chart
 
+  
    Daily sales trend and spike pattern analysis.
 
-10. Monthly Sales  Analysis
-   Visual: Column Chart
+11. Monthly Sales  Analysis
+    -  Visual: Column Chart
 
-   Monthly sales trend and spike pattern analysis.
+  
+     Monthly sales trend and spike pattern analysis.
 
 
 11. Slicers 
-   Country-wise dropdown Slicers
+   - Country-wise dropdown Slicers
 
 12. Buttons
-    Page Navigation using pages
+   -  Page Navigation using pages
 
 ## 📌 Key Learnings & Insights
 ✅ Customers from the UK accounted for the majority of transactions.
