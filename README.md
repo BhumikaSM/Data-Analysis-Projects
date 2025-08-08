@@ -65,8 +65,10 @@ Key Measures and Metrics Created:
 
 ## 📈 Power BI Dashboard
 Pages and Visuals Created:
+
+
 1.Dashboard Overview (Page Title Displayed)
-     - Contains a dynamic page title using a text box for branding and clarity.
+      -  Contains a dynamic page title using a text box for branding and clarity.
    
 2.KPI cards
      - Total orders (count of distinct InvoiceNo)
