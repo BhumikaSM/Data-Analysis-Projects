@@ -4,7 +4,8 @@ This project presents a comprehensive analysis and dashboard creation using an e
 ## 📁 Dataset
 The dataset used in this project was sourced from Kaggle:
 Ecommerce Data on Kaggle
-
+https://www.kaggle.com/datasets/carrie1/ecommerce-data
+(This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers)
 It contains over 500,000 records of transactions from an online UK-based retailer, including:
 
 - InvoiceNo
@@ -33,6 +34,7 @@ Handled missing values: particularly missing InvoiceDate and CustomerID.
 
 
 ## SQL: 
+
 Key Measures and Metrics Created:
 -  Top 10 selling products by total revenue:
 -  total revenue per day:
@@ -51,81 +53,86 @@ Key Measures and Metrics Created:
 -  Day of Week Sales Trend-
 
  ## Python
-- Recency, Frequency, and Monetary (RFM) analysis using Python
-
-- Top-selling products by sales volume and revenue
-- Monthly Sales trends
-
-- Daily sales trends
-
-- Country-wise performance
+  - Setting up environment using python libraries
+  - Exploratory Data Analysis
+  - top selling products
+  - Revenue over time (visualizing using matplotlib)
+  - Recency, Frequency, and Monetary (RFM) analysis using Python
+  - Return Analysis (Using Matplotlib)
+  - 
 
 ## 📈 Power BI Dashboard
 Pages and Visuals Created:
 1. Dashboard Overview (Page Title Displayed)
-Contains a dynamic page title using a text box for branding and clarity.
-
+   Contains a dynamic page title using a text box for branding and clarity.
+   
 2.KPI cards
-- Total orders (count of distinct InvoiceNo)
-- Total Items Sold (Sum of Quantity)
-- Unique Customers (Distinct Count Of CustmerID)
-- Total Revenue (Sum Of Total Revenue)
-visual: New Cards
+  - Total orders (count of distinct InvoiceNo)
+  - Total Items Sold (Sum of Quantity)
+  - Unique Customers (Distinct Count Of CustmerID)
+  - Total Revenue (Sum Of Total Revenue)
+  visual: New Cards
 
 3. Customer Type Distribution
-Displays counts of Unique vs. Returning customers.
-Visual:Pie Chart
+   Displays counts of Unique vs. Returning customers.
+   Visual:Pie Chart
 
 4.Invoice Date Status
-Displays Counts of Missing and Valid Invoice date
+   Displays Counts of Missing and Valid Invoice date
 
 5. Sales vs Returns
-Visual: Area Chart
+   Visual: Area Chart
+   Shows comparison between total sales and return quantities.
 
-Shows comparison between total sales and return quantities.
+6. Return Rate Percentage by Country
+    Visual: Stacked line Chart
 
-4. Return Rate Percentage by Country
-Visual: Stacked line Chart
+    Return Rate (%) = 
+      DIVIDE(
+         CALCULATE(COUNTROWS(Sales), Sales[TransactionType] = "Returns"),
+         CALCULATE(COUNTROWS(Sales), Sales[TransactionType] IN {"Sales", "Returns"})
+      ) * 100
 
-Return Rate (%) = 
-DIVIDE(
-    CALCULATE(COUNTROWS(Sales), Sales[TransactionType] = "Returns"),
-    CALCULATE(COUNTROWS(Sales), Sales[TransactionType] IN {"Sales", "Returns"})
-) * 100
+7. Top Selling Products
+   Visual: Bar Chart
+   Displays top products by Total Price.
 
-5. Top Selling Products
-Visual: Bar Chart
+8. Invoice Date Analysis
+   Extracted Month and Day Name for Further Analysis.
 
-Displays top products by Total Price.
+9. Daily Sales  Analysis
+   Visual: Area Chart
 
-6. Invoice Date Analysis
-Extracted Month and Day Name for Further Analysis.
+   Daily sales trend and spike pattern analysis.
 
-7.Daily Sales  Analysis
-Visual: Area Chart
+10. Monthly Sales  Analysis
+   Visual: Column Chart
 
-Daily sales trend and spike pattern analysis.
-
-7.Monthly Sales  Analysis
-Visual: Column Chart
-
-Monthly sales trend and spike pattern analysis.
+   Monthly sales trend and spike pattern analysis.
 
 
-9. Slicers 
-Country-wise dropdown Slicers
+11. Slicers 
+   Country-wise dropdown Slicers
 
-10.Buttons
-Page Navigation using pages
+12. Buttons
+    Page Navigation using pages
 
 ## 📌 Key Learnings & Insights
-Customers from the UK accounted for the majority of transactions.
+✅ Customers from the UK accounted for the majority of transactions.
 
-A significant number of returns were observed, especially in certain countries.
+✅ 91.02% of customers are registerd and 8.98% of customers are unregisterd(guest customers)
 
-The top-selling products could be targeted for promotions.
+✅ A significant number of returns were observed, especially in USA.
 
-RFM segmentation helps in identifying loyal vs. at-risk customers.
+✅ In the month of August high transactions are observed
+
+✅ Based on Daily sales analysis  Thursday and Friday transactions are more.
+
+✅ 57.03% customers InvoiceDate is missing and 42.97% have valid InvoiceDate
+
+✅ The top-selling products could be targeted for promotions.
+
+✅ RFM segmentation helps in identifying loyal vs. at-risk customers.
 
 📦 Tools Used
 - Excel :	Initial cleaning and exploration
