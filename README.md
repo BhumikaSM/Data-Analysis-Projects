@@ -68,7 +68,9 @@ Pages and Visuals Created:
 
 
 1.Dashboard Overview (Page Title Displayed)
-      -  Contains a dynamic page title using a text box for branding and clarity.
+
+
+   - Contains a dynamic page title using a text box for branding and clarity.
    
 2.KPI cards
 
@@ -147,3 +149,9 @@ Pages and Visuals Created:
 - PostgreSQL(PGAdmin)	: Data cleaning, transformation, and aggregation
 - Python : (Pandas, Matplotlib)	Advanced analysis, RFM, visualizations
 - Power BI	: Dashboard building and interactive visualization
+
+
+!<img width="698" height="373" alt="image" src="https://github.com/user-attachments/assets/fd9ef124-fc45-4cfc-97e8-b1eab9966c92" />
+!<img width="1392" height="742" alt="Screenshot 2025-08-08 223835" src="https://github.com/user-attachments/assets/ae6f9b0d-8f8b-4cad-a2a5-a74a9682213d" />
+
+
