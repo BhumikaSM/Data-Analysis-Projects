@@ -1,4 +1,4 @@
-🛒 Quantium Retail Analytics – Task 1 (Python Version)
+🛒 Quantium Retail Analytics – Task 1
 📊 Project Overview
 
 This project replicates Quantium’s Data Analytics Virtual Experience (Task 1) in Python.
