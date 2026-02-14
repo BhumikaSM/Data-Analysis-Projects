@@ -7,4 +7,5 @@ SELECT
 FROM gold.fact_sales
 WHERE order_date IS NOT NULL
 GROUP BY to_char(DATE_TRUNC('month', order_date),'YYYY-mon')
-ORDER BY order_month ASC
+
+ORDER BY order_month ASC 
